@@ -1,0 +1,43 @@
+*
+{
+    margin:0 auto;
+    padding:0;
+}
+
+:root
+{
+    --r:blue;
+    --g:green;
+}
+
+.first
+{
+    color:var(--r);
+    background-color: orange;
+    padding:10px;
+}
+
+.row
+{
+    width:1200px;
+    min-height: 50px;
+    max-height: fit-content;
+    border:1px solid var(--r);
+    display: flex;
+    margin-top:10px;
+}
+.row section
+{
+    border:1px solid var(--r);
+    padding:10px;
+    flex:1;
+    margin:5px;
+}
+.row img
+{
+    width: 100%;
+}
+
+.row h1{
+    color:var(--r);
+}
